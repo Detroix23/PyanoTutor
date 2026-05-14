@@ -1,0 +1,12 @@
+# Venv
+.venv*
+
+# Python
+*.pyc
+*/__pycache__
+/dist
+*.egg-info
+.mypy_cache
+
+# Doc
+!README.md
