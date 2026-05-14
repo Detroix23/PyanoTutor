@@ -1,0 +1,34 @@
+[project]
+name = "pyano_tutor"
+version = "0.0.1"
+description = "Train piano skills: notes, chords, scales."
+authors = [
+    { name="Detroix23", email="detroix23@gmail.com" },
+]
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+]
+dependencies = [
+    "mido >= 1.3.2",
+    "python-rtmidi >= 1.5.0",
+]
+readme = "README.md"
+license = "CC-BY-4.0"
+license-files = ["LICENSE.md"]
+
+[project.urls]
+Repository = "https://github.com/Detroix23/"
+
+[build-system]
+requires = ["setuptools >= 77.0.3"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+namespaces = false
+
+[tool.mypy]
+strict = true
