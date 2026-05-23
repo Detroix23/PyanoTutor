@@ -20,7 +20,7 @@ license = "CC-BY-4.0"
 license-files = ["LICENSE.md"]
 
 [project.urls]
-Repository = "https://github.com/Detroix23/"
+Repository = "https://github.com/Detroix23/PyanoTutor"
 
 [build-system]
 requires = ["setuptools >= 77.0.3"]
